@@ -19,14 +19,38 @@ body {
 
 #circle {
     position: relative;
-    margin: 10vw 40vw;
-    width: 20vw;
-    height: 20vw;
+    margin: 50% 32%;
+    width: 40vw;
+    height: 40vw;
     border-radius: 50%;
     border: 0.5px solid #000;
 }
 
 #btn {
+    position: absolute;
+    top: 99vw;
+    left: 10vw;
+    margin-bottom: -80vw;
+    border: 0.1px solid #000;
+    border-radius: 20px;
+    font-size: 2vw;
+    font-family: sans-serif;
+    font-weight: 700;
+    padding: 0.5% 3%;
+    margin: 3vw 0 0 36vw;
+    cursor: pointer;
+}
+
+@media (min-width :41rem) {
+    #circle {
+        position: relative;
+        margin: 10vw 40vw;
+        width: 20vw;
+        height: 20vw;
+        border-radius: 50%;
+        border: 0.5px solid #000;
+    }
+    #btn {
     position: absolute;
     top: 33vw;
     left: 10vw;
@@ -40,4 +64,4 @@ body {
     margin: 3vw 0 0 36vw;
     cursor: pointer;
 }
-
+}
