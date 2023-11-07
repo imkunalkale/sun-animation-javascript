@@ -19,7 +19,7 @@ btn.addEventListener("click", function () {
       sun.style.backgroundColor = "transparent";
       circle.style.boxShadow = "none"
       onOfValue = 0;
-      btn.innerHTML = "on";
+      btn.innerHTML = "ON";
       background.style.backgroundColor = "#fff";
 
    }

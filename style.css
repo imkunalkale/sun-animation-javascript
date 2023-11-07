@@ -1,44 +1,69 @@
-* {
+
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-html,
-body {
+html,body{
     width: 100%;
     height: 100%;
 }
 
-#main {
-    width: 100vw;
-    height: 100vh;
-    padding: 30vw;
-
+#main{
+padding: 8% 10%;
+width: 100%;
+height: 100%;
 }
 
-#circle {
-    
-    position: relative;
-    margin: 10vw 40vw;
-    width: 20vw;
-    height: 20vw;
+#circle{
+    width: 25vw;
+    height: 25vw;
+    margin-left: 27vw;
     border-radius: 50%;
-    border: 0.5px solid #000
+    border: 0.3px solid #000;
 }
-#btn {
-    position: absolute;
-    top: 33vw;
-    left: 10vw;
-    margin-bottom: -80vw;
-    border: 0.1px solid #000;
-    border-radius: 20px;
+
+#btn{
+    width: 7vw;
+    height: 3vw;
+    padding: 2px;
+    margin: 5vw 0 0 36vw;
+    border-radius: 30px;
     font-size: 2vw;
-    font-family: sans-serif;
-    font-weight: 700;
-    padding: 0.5% 3%;
-    margin: 3vw 0 0 36vw;
-    cursor: pointer;
+    border: 0.3px solid #000;
 }
 
 
+@media (max-width:41rem) {
+
+    #main{
+        padding: 45% 10%;
+        width: 100%;
+        height: 100%;
+        }
+
+    #circle{
+        width: 25vw;
+        height: 25vw;
+        margin-left: 27vw;
+    }
+    #btn{
+        width: 7vw;
+        height: 4vw;
+        padding: 2px;
+        margin: 5vw 0 0 36vw;
+        border-radius: 30px;
+        font-size: 2vw;
+        border: 0.3px solid #000;
+    }
+}
+
+@media (max-width:26.875rem)  {
+    #main{
+        padding: 75% 10%;
+        width: 100%;
+        height: 100%;
+        }
+}
