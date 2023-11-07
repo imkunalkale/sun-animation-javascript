@@ -83,3 +83,51 @@ height: 100%;
         height: 100%;
         }
 }
+
+
+@media (max-width:400px) {
+    #main{
+        padding: 90vw 10%;
+        width: 100%;
+        height: 100%;
+    }
+    #circle{
+        width: 35vw;
+        height: 35vw;
+        margin-left: 22.5vw;
+        border-radius: 50%;
+        border: 0.3px solid #000;
+    }
+}
+
+
+@media (max-width:410px) {
+    #main{
+        padding: 90vw 10%;
+        width: 100%;
+        height: 100%;
+    }
+    #circle{
+        width: 35vw;
+        height: 35vw;
+        margin-left: 22.5vw;
+        border-radius: 50%;
+        border: 0.3px solid #000;
+    }
+}
+
+
+@media (max-width:330px) {
+    #main{
+        padding: 100vw 10%;
+        width: 100%;
+        height: 100%;
+    }
+    #circle{
+        width: 35vw;
+        height: 35vw;
+        margin-left: 22.5vw;
+        border-radius: 50%;
+        border: 0.3px solid #000;
+    }
+}
