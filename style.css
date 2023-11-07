@@ -60,9 +60,25 @@ height: 100%;
     }
 }
 
-@media (max-width:26.875rem)  {
+@media (max-width:67.5rem) {
     #main{
-        padding: 75% 10%;
+        padding: 30vw 10%;
+        width: 100%;
+        height: 100%;
+        }
+}
+
+@media (max-width:750px) {
+    #main{
+        padding: 40vw 10%;
+        width: 100%;
+        height: 100%;
+        }
+}
+
+@media (max-width:600px) {
+    #main{
+        padding: 50vw 10%;
         width: 100%;
         height: 100%;
         }
